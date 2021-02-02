@@ -1,0 +1,28 @@
+{
+  "name": "sbooker/persistent-pointer",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Knigin",
+      "email": "sbooker@mail.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sbooker\\PersistentPointer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Sbooker\\PersistentPointer\\": "tests/"
+    }
+  }
+}
