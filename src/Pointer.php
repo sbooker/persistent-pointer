@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Sbooker\PersistentPointer;
 
-final class Pointer
+/* final */ class Pointer
 {
     private string $name;
 
