@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Sbooker\PersistentPointer;
 
-/* final */ class Pointer
+/**
+ * @final
+ */
+class Pointer
 {
     private string $name;
 
@@ -18,7 +21,7 @@ namespace Sbooker\PersistentPointer;
 
     public function getValue(): int
     {
-        return (int)$this->value;
+        return $this->value;
     }
 
     public function increaseTo(int $value): void
